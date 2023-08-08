@@ -1,5 +1,5 @@
 {
-  "name": "v-fly-ui",
+  "name": "fly-ui-v",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/ui.umd.js",
@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@v-fly-ui/components": "workspace:^1.0.0",
+    "@fly-ui-v/components": "workspace:^1.0.0",
     "@vitejs/plugin-vue": "^4.2.3",
     "sass": "^1.64.2",
     "typescript": "^5.1.6",

@@ -1,4 +1,4 @@
-import { FlyButton } from "@v-fly-ui/components/button";
+import { FlyButton } from "@fly-ui-v/components/button";
 import Components from "./components";
 import { App } from "vue";
 import "uno.css";
