@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "fly-ui": "workspace:^1.0.0",
+    "v-fly-ui": "workspace:^1.0.0",
     "vue": "^3.3.4"
   },
   "devDependencies": {
