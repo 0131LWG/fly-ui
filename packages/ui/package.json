@@ -1,0 +1,26 @@
+{
+  "name": "fly-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/ui.umd.js",
+  "module": "./dist/ui.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fly-ui/components": "workspace:^1.0.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "sass": "^1.64.2",
+    "typescript": "^5.1.6",
+    "unocss": "^0.54.2",
+    "vite": "^4.4.9",
+    "vite-plugin-dts": "^3.5.1",
+    "vue": "^3.3.4"
+  }
+}

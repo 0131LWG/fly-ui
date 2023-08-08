@@ -1,0 +1,7 @@
+node_modules/
+apps/digital-village/src/uni_modules/
+**/src/wxcomponents/
+
+dist/
+index.html
+vite.config.ts

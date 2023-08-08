@@ -1,0 +1,12 @@
+{
+  "name": "@fly-ui/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.3.4"
+  }
+}

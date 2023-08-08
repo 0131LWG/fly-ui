@@ -1,0 +1,8 @@
+@use "./button.scss";
+.fly-button + .fly-button {
+  margin-left: 12px;
+}
+.fly-button {
+  border: none;
+  font-size: 14px;
+}
