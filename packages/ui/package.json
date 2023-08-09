@@ -4,6 +4,8 @@
   "description": "",
   "main": "./dist/ui.umd.js",
   "module": "./dist/ui.es.js",
+  "types": "./dist/packages/ui/index.d.ts",
+  "typings": "./types/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
