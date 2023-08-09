@@ -1,6 +1,6 @@
 {
-  "private": true,
   "version": "1.0.0",
+  "description": "组件库",
   "keywords": [],
   "scripts": {
     "format": "prettier --write \"**/*.{ts,tsx,js,json,md}\"",
