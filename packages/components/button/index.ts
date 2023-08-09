@@ -1,11 +1,8 @@
-import { App, Plugin } from "vue";
-import FlyButton from "./src/index.vue";
+import { App } from "vue";
+import FlyButton from "./index.vue";
 
-const ButtonInstall: Plugin = {
-  install(app: App) {
-    app.component("fly-button", FlyButton);
-  }
+FlyButton.install = (app: App) => {
+  app.component(FlyButton.name, FlyButton);
 };
 
-export default ButtonInstall;
-export { FlyButton };
+export default FlyButton;

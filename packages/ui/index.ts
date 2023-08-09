@@ -1,16 +1,20 @@
-import { FlyButton } from "@fly-ui-v/components/button";
-import Components from "./components";
 import { App } from "vue";
+import FlyButton from "@fly-ui-v/components/button";
+// import component end
 import "uno.css";
 import "./styles/index.scss";
 
-const Installer = {
-  install(app: App) {
-    Components.forEach((c) => {
-      app.use(c);
-    });
-  }
+const components = [FlyButton]; // components
+
+// 全局动态添加组件
+const install = (app: App): void => {
+  components.forEach((component) => {
+    app.component(component.name, component);
+  });
 };
 
-export default Installer;
+export default {
+  install
+};
+
 export { FlyButton };
